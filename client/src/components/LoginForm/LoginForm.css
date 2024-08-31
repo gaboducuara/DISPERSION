@@ -1,0 +1,27 @@
+.login-container{
+    height: 100vh;
+    min-height: 876px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-logo{
+    width: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+    .login-container{
+        min-height: 480px;
+    }
+
+    .login-logo{
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .login-logo{
+        width: 250px;
+    }
+}

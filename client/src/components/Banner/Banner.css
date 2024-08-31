@@ -1,0 +1,88 @@
+.logo-eleccion {
+  width: 15%;
+  position: relative;
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .no-display {
+    display: none !important;
+  }
+}
+
+.muestra0 {
+  opacity: 0%;
+  transition: opacity .1s;
+}
+
+.muestra1 {
+  opacity: 100%;
+  transition: opacity 3s;
+}
+
+.elecciones-container {
+  display: flex;
+  justify-content: space-around;
+  min-width: 290px;
+}
+
+.logo-eleccion {
+  width: 15%;
+  position: relative;
+  text-align: center;
+}
+
+.eleccion {
+  width: 100%;
+  z-index: 1;
+}
+
+.numero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  color: #e1a325;
+  font-weight: 600;
+}
+
+.banner-logo {
+  width: 250px;
+}
+
+@media only screen and (min-width: 992px){ 
+  .banner-logo {
+    display: none;
+  }
+
+  .elecciones-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .logo-eleccion {
+    width: 15%;
+    margin-top: 15px;
+  }
+
+  .numero{
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){ 
+  .numero{
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1400px){ 
+  .logo-eleccion {
+    margin-top: 50px;
+  }
+  
+}
